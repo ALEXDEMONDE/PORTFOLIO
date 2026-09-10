@@ -30,18 +30,41 @@ Le site est disponible sur http://localhost:3000 et l'administration sur http://
 
 Chaque onglet a un bouton **Enregistrer** commun en haut de page : les modifications ne sont écrites sur le site qu'après clic sur ce bouton.
 
-## Mise en production
+## Déployer sur Vercel (avec admin qui sauvegarde vraiment)
+
+Le site détecte automatiquement où il tourne : en local il écrit dans `data/content.json` et `public/uploads/` ; sur Vercel il bascule vers **Vercel Blob**, un stockage persistant, dès que la variable `BLOB_READ_WRITE_TOKEN` existe. Sans cette variable, l'admin fonctionnerait mais vos modifications disparaîtraient au déploiement suivant — suivez donc bien l'étape 3.
+
+**1. Mettre le code sur GitHub**
 
 ```bash
-npm run build
-npm start
+git remote add origin https://github.com/<votre-compte>/<votre-repo>.git
+git branch -M main
+git push -u origin main
 ```
 
-### ⚠️ Important si vous déployez sur Vercel
+*(Créez d'abord un dépôt vide sur [github.com/new](https://github.com/new), sans README ni .gitignore.)*
 
-Le contenu et les fichiers importés (photos/vidéos/logo) sont stockés sur le disque du serveur (`data/content.json` et `public/uploads/`). Sur Vercel (comme sur toute plateforme *serverless*), le système de fichiers est réinitialisé à chaque déploiement : les modifications faites depuis l'admin **ne seront pas conservées durablement**.
+**2. Importer le projet dans Vercel**
 
-Pour un site avec administration persistante, préférez un hébergement avec disque permanent (VPS, Railway, Render, un serveur Node classique) où vous lancez `npm run build && npm start`. Si vous tenez à rester sur Vercel, il faudra faire évoluer le stockage vers une base de données (ex. Postgres) et un service de stockage d'objets (ex. S3/Vercel Blob) — dites-le si vous voulez que ce soit fait.
+Sur [vercel.com/new](https://vercel.com/new), connectez votre compte GitHub et importez ce dépôt. Vercel détecte Next.js automatiquement — laissez les réglages par défaut.
+
+**3. Activer le stockage persistant (Vercel Blob)**
+
+Dans votre projet Vercel → onglet **Storage** → **Create Database** → **Blob** → créez le store et connectez-le au projet. Vercel ajoute automatiquement la variable `BLOB_READ_WRITE_TOKEN`. Sans cette étape, l'admin ne pourra pas enregistrer durablement.
+
+**4. Définir les variables d'environnement**
+
+Dans **Settings → Environment Variables**, ajoutez :
+- `ADMIN_PASSWORD` — votre mot de passe admin définitif (ne gardez pas `admin123`)
+- `SESSION_SECRET` — une longue chaîne aléatoire
+
+Puis redéployez (**Deployments → ⋯ → Redeploy**) pour que les nouvelles variables prennent effet.
+
+Vous obtiendrez alors un lien public du type `https://votre-projet.vercel.app`, avec un admin sur `/admin` qui enregistre vraiment vos photos, vidéos et textes.
+
+## Alternative : hébergement avec disque persistant
+
+Un VPS, Railway ou Render (avec `npm run build && npm start`) fonctionne aussi très bien et n'a pas besoin de Vercel Blob : le stockage local (`data/content.json` + `public/uploads/`) suffit puisque le disque n'est pas réinitialisé entre les requêtes.
 
 ## Structure
 
