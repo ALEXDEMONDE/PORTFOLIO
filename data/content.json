@@ -1,0 +1,254 @@
+{
+  "theme": {
+    "primary": "#F5A623",
+    "primaryDark": "#D98F1B",
+    "dark": "#111111",
+    "background": "#FFFFFF",
+    "surface": "#F7F7F5",
+    "text": "#111111",
+    "muted": "#6B7280"
+  },
+  "site": {
+    "logoUrl": "/uploads/seed/logo.jpeg",
+    "siteName": "Demonde Alex",
+    "cvUrl": ""
+  },
+  "hero": {
+    "photoUrl": "/uploads/seed/profile.jpeg",
+    "greeting": "Demonde Alex",
+    "fullName": "Demonde Ganhi Alex Madochée",
+    "tagline": "Professionnel du digital orienté performance, création visuelle et gestion de projets numériques.",
+    "description": "Conception et exécution de stratégies digitales sur mesure pour renforcer l'image de marque, optimiser la visibilité sur les réseaux sociaux et stimuler la croissance des structures locales.",
+    "ctaLabel": "Découvrir mes réalisations"
+  },
+  "expertise": [
+    {
+      "id": "exp-1",
+      "title": "Stratégie Digitale et Contenu",
+      "description": "Élaboration de calendriers éditoriaux, planification de stratégies de communication globale, définition d'objectifs, cibles et messages clés, et rédaction publicitaire (Copywriting)."
+    },
+    {
+      "id": "exp-2",
+      "title": "Social Media et Acquisition",
+      "description": "Community Management professionnel, animation et développement de communautés en ligne, et gestion complète de campagnes publicitaires payantes orientées performance."
+    },
+    {
+      "id": "exp-3",
+      "title": "Création Visuelle et Multimédia",
+      "description": "Conception de supports digitaux, infographies promotionnelles, création d'affiches publicitaires, design de kakémonos professionnels et montage vidéo dynamique."
+    },
+    {
+      "id": "exp-4",
+      "title": "Production Audiovisuelle et Analyse",
+      "description": "Photographie événementielle et corporate, prise de vue, retouche, optimisation web des images, ainsi qu'analyse et reporting des performances digitales."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-ciera",
+      "name": "CIERA GROUPE",
+      "subtitle": "Community Management et Branding",
+      "challenge": "Renforcer l'image de marque et la notoriété de la structure tout en alignant la communication digitale avec les objectifs de l'équipe commerciale.",
+      "solution": "Création, publication et animation de contenus stratégiques adaptés. Conception d'affiches publicitaires et de kakémonos pour renforcer l'identité visuelle.",
+      "gallery": [
+        {
+          "id": "ciera-g1",
+          "url": "/uploads/seed/ciera-1.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "ciera-g2",
+          "url": "/uploads/seed/ciera-2.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "ciera-g3",
+          "url": "/uploads/seed/ciera-3.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "ciera-g4",
+          "url": "/uploads/seed/ciera-4.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "ciera-g5",
+          "url": "/uploads/seed/ciera-5.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "proj-orocom",
+      "name": "OROCOM",
+      "subtitle": "Communication Digitale & Visuelle",
+      "challenge": "Développer une présence visuelle cohérente et professionnelle sur les réseaux sociaux tout en soutenant les événements corporate de l'entreprise.",
+      "solution": "Production d'infographies, de visuels promotionnels et de supports digitaux, couplée à une couverture photo événementielle et corporate optimisée pour le web.",
+      "gallery": [
+        {
+          "id": "orocom-g1",
+          "url": "/uploads/seed/orocom-1.png",
+          "type": "image"
+        },
+        {
+          "id": "orocom-g2",
+          "url": "/uploads/seed/orocom-2.png",
+          "type": "image"
+        },
+        {
+          "id": "orocom-g3",
+          "url": "/uploads/seed/orocom-3.png",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "proj-rayna",
+      "name": "RAYNA",
+      "subtitle": "Création Visuelle",
+      "challenge": "Créer des supports visuels percutants pour accompagner la stratégie de communication de la marque.",
+      "solution": "Conception de visuels et de supports graphiques alignés sur l'identité de marque de RAYNA.",
+      "gallery": [
+        {
+          "id": "rayna-g1",
+          "url": "/uploads/seed/rayna-1.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "rayna-g2",
+          "url": "/uploads/seed/rayna-2.jpeg",
+          "type": "image"
+        },
+        {
+          "id": "rayna-g3",
+          "url": "/uploads/seed/rayna-3.jpeg",
+          "type": "image"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "media-1",
+      "url": "/uploads/seed/orocom-1.png",
+      "type": "image",
+      "tag": "OROCOM"
+    },
+    {
+      "id": "media-2",
+      "url": "/uploads/seed/orocom-2.png",
+      "type": "image",
+      "tag": "OROCOM"
+    },
+    {
+      "id": "media-3",
+      "url": "/uploads/seed/orocom-3.png",
+      "type": "image",
+      "tag": "OROCOM"
+    },
+    {
+      "id": "media-4",
+      "url": "/uploads/seed/ciera-1.jpeg",
+      "type": "image",
+      "tag": "CIERA"
+    },
+    {
+      "id": "media-5",
+      "url": "/uploads/seed/ciera-2.jpeg",
+      "type": "image",
+      "tag": "CIERA"
+    },
+    {
+      "id": "media-6",
+      "url": "/uploads/seed/ciera-3.jpeg",
+      "type": "image",
+      "tag": "CIERA"
+    },
+    {
+      "id": "media-7",
+      "url": "/uploads/seed/ciera-4.jpeg",
+      "type": "image",
+      "tag": "CIERA"
+    },
+    {
+      "id": "media-8",
+      "url": "/uploads/seed/ciera-5.jpg",
+      "type": "image",
+      "tag": "CIERA"
+    },
+    {
+      "id": "media-9",
+      "url": "/uploads/seed/rayna-1.jpeg",
+      "type": "image",
+      "tag": "RAYNA"
+    },
+    {
+      "id": "media-10",
+      "url": "/uploads/seed/rayna-2.jpeg",
+      "type": "image",
+      "tag": "RAYNA"
+    },
+    {
+      "id": "media-11",
+      "url": "/uploads/seed/rayna-3.jpeg",
+      "type": "image",
+      "tag": "RAYNA"
+    },
+    {
+      "id": "media-12",
+      "url": "/uploads/seed/logo.jpeg",
+      "type": "image",
+      "tag": "Logo"
+    }
+  ],
+  "experience": [
+    {
+      "id": "xp-1",
+      "period": "15 Janvier 2026 – 5 Mai 2026",
+      "role": "Community Manager",
+      "company": "CIERA GROUPE",
+      "bullets": [
+        "Gestion des réseaux sociaux de la structure (création, publication et animation de contenus)",
+        "Travail sur le branding de l'entreprise afin de renforcer son image et sa notoriété",
+        "Intégration au sein de l'équipe commerciale pour aligner la communication avec les objectifs commerciaux"
+      ]
+    },
+    {
+      "id": "xp-2",
+      "period": "16 Août 2025 – 05 Janvier 2026",
+      "role": "Chargé de Communication Digitale & Visuelle",
+      "company": "OROCOM",
+      "bullets": [
+        "Gestion et animation des réseaux sociaux (Community Management)",
+        "Création de contenus visuels : infographies, visuels promotionnels, supports digitaux",
+        "Photographie événementielle et corporate, prise de vue, retouche et optimisation web",
+        "Élaboration de calendriers éditoriaux et suivi des performances"
+      ]
+    },
+    {
+      "id": "xp-3",
+      "period": "03 Décembre 2024 – 22 Mars 2025",
+      "role": "Community Manager",
+      "company": "SAJE IVOIRE",
+      "bullets": [
+        "Gestion des réseaux sociaux de la structure",
+        "Création et publication de contenus adaptés aux différentes plateformes",
+        "Animation et développement des communautés en ligne"
+      ]
+    }
+  ],
+  "contact": {
+    "locationLine1": "Cocody, Angré CHU",
+    "locationLine2": "Abidjan, Côte d'Ivoire",
+    "phones": [
+      "+225 0544808513",
+      "+225 0769184860"
+    ],
+    "email": "alexdemonde7@gmail.com",
+    "social": {
+      "linkedin": "https://linkedin.com/in/alexdemonde",
+      "facebook": "https://facebook.com/alexdemonde",
+      "tiktok": "https://tiktok.com/@alexdemonde"
+    }
+  }
+}
