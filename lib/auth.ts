@@ -10,7 +10,7 @@ function getSecret(): string {
 }
 
 function getAdminPassword(): string {
-  return process.env.ADMIN_PASSWORD || "changeme123";
+  return (process.env.ADMIN_PASSWORD || "changeme123").trim();
 }
 
 function toBase64Url(bytes: ArrayBuffer): string {
@@ -31,7 +31,7 @@ async function hmac(payload: string): Promise<string> {
 }
 
 export function checkPassword(password: string): boolean {
-  return password === getAdminPassword();
+  return password.trim() === getAdminPassword();
 }
 
 export async function createSessionToken(): Promise<string> {
