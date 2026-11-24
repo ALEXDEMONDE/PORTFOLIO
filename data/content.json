@@ -159,40 +159,6 @@
       ]
     },
     {
-      "id": "proj-la-commerciale",
-      "name": "LA COMMERCIALE",
-      "subtitle": "Live selling : identité et habillage des lives",
-      "challenge": "Structurer la communication d'une activité de live selling sur TikTok et Facebook avec une identité cohérente.",
-      "solution": "Benchmark, charte graphique, habillage des lives TikTok et Facebook, visuels et calendrier éditorial.",
-      "gallery": [
-        {
-          "id": "la-commerciale-affiche-annonce-live",
-          "url": "/uploads/la-commerciale/affiche-annonce-live.jpg",
-          "type": "image"
-        },
-        {
-          "id": "la-commerciale-affiche-vente-flash",
-          "url": "/uploads/la-commerciale/affiche-vente-flash.jpg",
-          "type": "image"
-        },
-        {
-          "id": "la-commerciale-linkedin-manifeste",
-          "url": "/uploads/la-commerciale/linkedin-manifeste.jpg",
-          "type": "image"
-        },
-        {
-          "id": "la-commerciale-cliente-de-la-semaine",
-          "url": "/uploads/la-commerciale/cliente-de-la-semaine.jpg",
-          "type": "image"
-        },
-        {
-          "id": "la-commerciale-top-abonnee",
-          "url": "/uploads/la-commerciale/top-abonnee.jpg",
-          "type": "image"
-        }
-      ]
-    },
-    {
       "id": "proj-mister-blazer",
       "name": "MISTER BLAZER / VESTIMENTUM",
       "subtitle": "Mode : site de vente en ligne et campagnes Meta Ads",
@@ -453,24 +419,6 @@
       "tag": "AC IMMOBILIER"
     },
     {
-      "id": "media-la-commerciale-affiche-annonce-live",
-      "url": "/uploads/la-commerciale/affiche-annonce-live.jpg",
-      "type": "image",
-      "tag": "LA COMMERCIALE"
-    },
-    {
-      "id": "media-la-commerciale-affiche-vente-flash",
-      "url": "/uploads/la-commerciale/affiche-vente-flash.jpg",
-      "type": "image",
-      "tag": "LA COMMERCIALE"
-    },
-    {
-      "id": "media-la-commerciale-linkedin-manifeste",
-      "url": "/uploads/la-commerciale/linkedin-manifeste.jpg",
-      "type": "image",
-      "tag": "LA COMMERCIALE"
-    },
-    {
       "id": "media-mister-blazer-catalogue-trois-teintes",
       "url": "/uploads/mister-blazer/catalogue-trois-teintes.jpg",
       "type": "image",
@@ -623,7 +571,6 @@
       "company": "MISSIONS INDÉPENDANTES",
       "bullets": [
         "Vestimentum / Mister Blazer (mode), depuis juillet 2026 : réalisation du site web de vente en ligne, social media management, stratégie, calendrier éditorial, tableau de bord KPI, campagnes Meta Ads orientées ventes WhatsApp",
-        "La Commerciale (live selling) : benchmark, charte graphique, habillage des lives TikTok et Facebook, visuels et calendrier éditorial",
         "Evannath Hôtel Assinie : calendrier éditorial Facebook, Instagram et TikTok, légendes et planning de tournages"
       ]
     },
