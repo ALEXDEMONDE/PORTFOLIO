@@ -51,7 +51,7 @@ export default function MediaGallery({
               {item.type === "video" ? (
                 <>
                   { }
-                  <video src={item.url} className="size-full object-cover" muted />
+                  <video src={`${item.url}#t=0.1`} preload="metadata" className="size-full object-cover" muted playsInline />
                   <span className="absolute inset-0 flex items-center justify-center bg-black/30 text-white">
                     <IconPlay />
                   </span>

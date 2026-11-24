@@ -81,7 +81,7 @@ export default function ProjectsTab({ content, update }: { content: SiteContent;
                 <div key={item.id} className="group relative aspect-square overflow-hidden rounded-lg bg-neutral-100 ring-1 ring-black/5">
                   {item.type === "video" ? (
                      
-                    <video src={item.url} className="size-full object-cover" muted />
+                    <video src={`${item.url}#t=0.1`} preload="metadata" className="size-full object-cover" muted playsInline />
                   ) : (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img src={item.url} alt="" className="size-full object-cover" />

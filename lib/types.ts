@@ -24,6 +24,13 @@ export type ExperienceEntry = {
   bullets: string[];
 };
 
+export type EducationEntry = {
+  id: string;
+  period: string;
+  title: string;
+  school: string;
+};
+
 export type SiteContent = {
   theme: {
     primary: string;
@@ -51,6 +58,9 @@ export type SiteContent = {
   projects: Project[];
   media: MediaGalleryItem[];
   experience: ExperienceEntry[];
+  education: EducationEntry[];
+  tools: string[];
+  languages: string[];
   contact: {
     locationLine1: string;
     locationLine2: string;

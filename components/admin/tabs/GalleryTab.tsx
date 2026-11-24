@@ -48,7 +48,7 @@ export default function GalleryTab({ content, update }: { content: SiteContent; 
             <div className="relative aspect-square overflow-hidden rounded-lg bg-neutral-100">
               {item.type === "video" ? (
                  
-                <video src={item.url} className="size-full object-cover" muted />
+                <video src={`${item.url}#t=0.1`} preload="metadata" className="size-full object-cover" muted playsInline />
               ) : (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={item.url} alt={item.tag} className="size-full object-cover" />

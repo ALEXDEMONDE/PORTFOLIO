@@ -8,6 +8,7 @@ import Expertise from "./Expertise";
 import Projects from "./Projects";
 import MediaGallery from "./MediaGallery";
 import Experience from "./Experience";
+import Education from "./Education";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Lightbox from "./Lightbox";
@@ -20,10 +21,11 @@ export default function PortfolioSite({ content }: { content: SiteContent }) {
       <Header siteName={content.site.siteName} logoUrl={content.site.logoUrl} cvUrl={content.site.cvUrl} />
       <main className="flex-1">
         <Hero hero={content.hero} />
-        <Expertise items={content.expertise} />
+        <Expertise items={content.expertise} tools={content.tools} />
         <Projects projects={content.projects} onOpenLightbox={(items, index) => setLightbox({ items, index })} />
         <MediaGallery media={content.media} onOpenLightbox={(items, index) => setLightbox({ items, index })} />
         <Experience entries={content.experience} />
+        <Education entries={content.education} languages={content.languages} />
         <Contact contact={content.contact} />
       </main>
       <Footer siteName={content.site.siteName} />

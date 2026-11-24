@@ -20,7 +20,7 @@ const ALLOWED_TYPES = new Set([
   "application/pdf",
 ]);
 
-function useBlob(): boolean {
+function isBlobEnabled(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
 }
 
@@ -64,7 +64,7 @@ export async function POST(req: NextRequest) {
   const fileName = `${unique}-${sanitizeFileName(file.name)}`;
   const responseType = isVideo ? "video" : isDocument ? "document" : "image";
 
-  if (useBlob()) {
+  if (isBlobEnabled()) {
     try {
       const { put } = await import("@vercel/blob");
       const blob = await put(`uploads/${fileName}`, file, {

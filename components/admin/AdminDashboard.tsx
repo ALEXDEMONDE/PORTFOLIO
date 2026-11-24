@@ -9,6 +9,7 @@ import ExpertiseTab from "./tabs/ExpertiseTab";
 import ProjectsTab from "./tabs/ProjectsTab";
 import GalleryTab from "./tabs/GalleryTab";
 import ExperienceTab from "./tabs/ExperienceTab";
+import EducationTab from "./tabs/EducationTab";
 import ContactTab from "./tabs/ContactTab";
 
 export type ContentUpdater = (updater: (content: SiteContent) => SiteContent) => void;
@@ -20,6 +21,7 @@ const TABS = [
   { id: "projets", label: "Projets" },
   { id: "galerie", label: "Galerie" },
   { id: "experience", label: "Expérience" },
+  { id: "formation", label: "Formation" },
   { id: "contact", label: "Contact" },
 ] as const;
 
@@ -120,6 +122,7 @@ export default function AdminDashboard({ initialContent }: { initialContent: Sit
         {activeTab === "projets" ? <ProjectsTab content={content} update={update} /> : null}
         {activeTab === "galerie" ? <GalleryTab content={content} update={update} /> : null}
         {activeTab === "experience" ? <ExperienceTab content={content} update={update} /> : null}
+        {activeTab === "formation" ? <EducationTab content={content} update={update} /> : null}
         {activeTab === "contact" ? <ContactTab content={content} update={update} /> : null}
       </main>
     </div>

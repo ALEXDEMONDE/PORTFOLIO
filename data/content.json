@@ -11,39 +11,270 @@
   "site": {
     "logoUrl": "/uploads/seed/logo.jpeg",
     "siteName": "Demonde Alex",
-    "cvUrl": ""
+    "cvUrl": "/cv/CV_Alex_DEMONDE.pdf"
   },
   "hero": {
     "photoUrl": "/uploads/seed/profile.jpeg",
     "greeting": "Demonde Alex",
     "fullName": "Demonde Ganhi Alex Madochée",
-    "tagline": "Professionnel du digital orienté performance, création visuelle et gestion de projets numériques.",
-    "description": "Conception et exécution de stratégies digitales sur mesure pour renforcer l'image de marque, optimiser la visibilité sur les réseaux sociaux et stimuler la croissance des structures locales.",
+    "tagline": "Consultant Marketing Digital et Communication, orienté performance.",
+    "description": "Je conçois et pilote des stratégies de communication qui génèrent de la visibilité et des ventes : réseaux sociaux, contenus visuels, motion design et campagnes Meta Ads. J'accompagne des marques de l'immobilier, de la mode, de l'hôtellerie et du live selling, de la conception à l'exécution. Disponible pour des missions à distance.",
     "ctaLabel": "Découvrir mes réalisations"
   },
   "expertise": [
     {
       "id": "exp-1",
-      "title": "Stratégie Digitale et Contenu",
-      "description": "Élaboration de calendriers éditoriaux, planification de stratégies de communication globale, définition d'objectifs, cibles et messages clés, et rédaction publicitaire (Copywriting)."
+      "title": "Stratégie digitale et contenu",
+      "description": "Stratégie digitale et plan de communication (objectifs, cibles, messages, calendrier), calendriers éditoriaux, copywriting et scripts vidéo."
     },
     {
       "id": "exp-2",
-      "title": "Social Media et Acquisition",
-      "description": "Community Management professionnel, animation et développement de communautés en ligne, et gestion complète de campagnes publicitaires payantes orientées performance."
+      "title": "Social media et Meta Ads",
+      "description": "Social media management et campagnes Meta Ads orientées ventes, avec conversion vers WhatsApp pour les marques accompagnées."
     },
     {
       "id": "exp-3",
-      "title": "Création Visuelle et Multimédia",
-      "description": "Conception de supports digitaux, infographies promotionnelles, création d'affiches publicitaires, design de kakémonos professionnels et montage vidéo dynamique."
+      "title": "Création visuelle et motion design",
+      "description": "Visuels, affiches, carrousels et vidéos en motion design, réalisés selon la charte graphique de chaque marque."
     },
     {
       "id": "exp-4",
-      "title": "Production Audiovisuelle et Analyse",
-      "description": "Photographie événementielle et corporate, prise de vue, retouche, optimisation web des images, ainsi qu'analyse et reporting des performances digitales."
+      "title": "Photographie et live selling",
+      "description": "Photographie événementielle et corporate, prise de vue et retouche, habillage des lives TikTok et Facebook pour le live selling."
+    },
+    {
+      "id": "exp-5",
+      "title": "Analyse, KPI et reporting",
+      "description": "Tableaux de bord automatisés pour suivre les performances et les prospects, avec des indicateurs clairs."
+    },
+    {
+      "id": "exp-6",
+      "title": "Formation en outils numériques",
+      "description": "Programme de formation pratique pour les étudiants de l'UVCI et ateliers d'initiation à l'informatique avec la Communauté CVV Nord."
     }
   ],
   "projects": [
+    {
+      "id": "proj-ac-immobilier",
+      "name": "AC IMMOBILIER",
+      "subtitle": "Marketing, communication et campagnes Meta Ads",
+      "challenge": "Faire connaître l'offre immobilière (maisons et terrains) et générer des prospects qualifiés sur les réseaux sociaux.",
+      "solution": "Conception des visuels et des vidéos en motion design selon la charte graphique, gestion des réseaux sociaux, pilotage de campagnes Meta Ads orientées achat de maison, programme marketing sur 3 mois et tableau de suivi des prospects.",
+      "gallery": [
+        {
+          "id": "ac-immobilier-apercu-25-visuels-engagement",
+          "url": "/uploads/ac-immobilier/apercu-25-visuels-engagement.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-apercu-9-thematiques",
+          "url": "/uploads/ac-immobilier/apercu-9-thematiques.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-apercu-10-visuels-commerciaux",
+          "url": "/uploads/ac-immobilier/apercu-10-visuels-commerciaux.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-affiche-terrain-sur",
+          "url": "/uploads/ac-immobilier/affiche-terrain-sur.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-affiche-bonheur-chez-soi",
+          "url": "/uploads/ac-immobilier/affiche-bonheur-chez-soi.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-affiche-phrases-bailleur",
+          "url": "/uploads/ac-immobilier/affiche-phrases-bailleur.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-affiche-excuses",
+          "url": "/uploads/ac-immobilier/affiche-excuses.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-carrousel-loyer-construit-quoi",
+          "url": "/uploads/ac-immobilier/carrousel-loyer-construit-quoi.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-carrousel-construire-au-pays",
+          "url": "/uploads/ac-immobilier/carrousel-construire-au-pays.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-engagement-verifie-acd",
+          "url": "/uploads/ac-immobilier/engagement-verifie-acd.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-engagement-bornage",
+          "url": "/uploads/ac-immobilier/engagement-bornage.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-engagement-reve-sans-terrain",
+          "url": "/uploads/ac-immobilier/engagement-reve-sans-terrain.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-engagement-terrain-vu-aerienne",
+          "url": "/uploads/ac-immobilier/engagement-terrain-vu-aerienne.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-commercial-future-maison",
+          "url": "/uploads/ac-immobilier/commercial-future-maison.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-commercial-tu-l-achetes-quand",
+          "url": "/uploads/ac-immobilier/commercial-tu-l-achetes-quand.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-commercial-investir-avenir",
+          "url": "/uploads/ac-immobilier/commercial-investir-avenir.jpg",
+          "type": "image"
+        },
+        {
+          "id": "ac-immobilier-motion-future-maison",
+          "url": "/uploads/ac-immobilier/motion-future-maison.mp4",
+          "type": "video"
+        },
+        {
+          "id": "ac-immobilier-motion-loyer-des-autres",
+          "url": "/uploads/ac-immobilier/motion-loyer-des-autres.mp4",
+          "type": "video"
+        },
+        {
+          "id": "ac-immobilier-motion-verifie-acd",
+          "url": "/uploads/ac-immobilier/motion-verifie-acd.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "proj-la-commerciale",
+      "name": "LA COMMERCIALE",
+      "subtitle": "Live selling : identité et habillage des lives",
+      "challenge": "Structurer la communication d'une activité de live selling sur TikTok et Facebook avec une identité cohérente.",
+      "solution": "Benchmark, charte graphique, habillage des lives TikTok et Facebook, visuels et calendrier éditorial.",
+      "gallery": [
+        {
+          "id": "la-commerciale-affiche-annonce-live",
+          "url": "/uploads/la-commerciale/affiche-annonce-live.jpg",
+          "type": "image"
+        },
+        {
+          "id": "la-commerciale-affiche-vente-flash",
+          "url": "/uploads/la-commerciale/affiche-vente-flash.jpg",
+          "type": "image"
+        },
+        {
+          "id": "la-commerciale-linkedin-manifeste",
+          "url": "/uploads/la-commerciale/linkedin-manifeste.jpg",
+          "type": "image"
+        },
+        {
+          "id": "la-commerciale-cliente-de-la-semaine",
+          "url": "/uploads/la-commerciale/cliente-de-la-semaine.jpg",
+          "type": "image"
+        },
+        {
+          "id": "la-commerciale-top-abonnee",
+          "url": "/uploads/la-commerciale/top-abonnee.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "proj-mister-blazer",
+      "name": "MISTER BLAZER / VESTIMENTUM",
+      "subtitle": "Mode : site de vente en ligne et campagnes Meta Ads",
+      "challenge": "Lancer la vente en ligne d'une marque de mode et générer des commandes.",
+      "solution": "Réalisation du site web de vente en ligne, social media management, stratégie, calendrier éditorial, tableau de bord KPI et campagnes Meta Ads orientées ventes WhatsApp.",
+      "gallery": [
+        {
+          "id": "mister-blazer-catalogue-trois-teintes",
+          "url": "/uploads/mister-blazer/catalogue-trois-teintes.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-catalogue-1",
+          "url": "/uploads/mister-blazer/catalogue-1.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-catalogue-2",
+          "url": "/uploads/mister-blazer/catalogue-2.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-triptyque-ivoire",
+          "url": "/uploads/mister-blazer/triptyque-ivoire.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-veste-bleu-marine",
+          "url": "/uploads/mister-blazer/veste-bleu-marine.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-surchemise-bleu-marine",
+          "url": "/uploads/mister-blazer/surchemise-bleu-marine.jpg",
+          "type": "image"
+        },
+        {
+          "id": "mister-blazer-beige-bordeaux",
+          "url": "/uploads/mister-blazer/beige-bordeaux.jpg",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "proj-alex-demonde",
+      "name": "ALEX DEMONDE",
+      "subtitle": "Marque personnelle : contenus et motion design",
+      "challenge": "Se positionner comme consultant en marketing à Abidjan avec des contenus pédagogiques, simples et ancrés dans le quotidien local.",
+      "solution": "Série de visuels et de motions « Marketing façon Garba » : conseils marketing expliqués avec des références locales, dans une identité graphique cohérente.",
+      "gallery": [
+        {
+          "id": "alex-demonde-presentation-on-dit-quoi",
+          "url": "/uploads/alex-demonde/presentation-on-dit-quoi.jpg",
+          "type": "image"
+        },
+        {
+          "id": "alex-demonde-humour-c-est-combien",
+          "url": "/uploads/alex-demonde/humour-c-est-combien.jpg",
+          "type": "image"
+        },
+        {
+          "id": "alex-demonde-carrousel-garba-1",
+          "url": "/uploads/alex-demonde/carrousel-garba-1.jpg",
+          "type": "image"
+        },
+        {
+          "id": "alex-demonde-astuce-client-qui-clashe",
+          "url": "/uploads/alex-demonde/astuce-client-qui-clashe.jpg",
+          "type": "image"
+        },
+        {
+          "id": "alex-demonde-strategie-segmentation",
+          "url": "/uploads/alex-demonde/strategie-segmentation.jpg",
+          "type": "image"
+        },
+        {
+          "id": "alex-demonde-motion-c-est-combien",
+          "url": "/uploads/alex-demonde/motion-c-est-combien.mp4",
+          "type": "video"
+        }
+      ]
+    },
     {
       "id": "proj-ciera",
       "name": "CIERA GROUPE",
@@ -75,6 +306,11 @@
           "id": "ciera-g5",
           "url": "/uploads/seed/ciera-5.jpg",
           "type": "image"
+        },
+        {
+          "id": "ciera-logo-sci-ciera-immobilier",
+          "url": "/uploads/ciera/logo-sci-ciera-immobilier.jpg",
+          "type": "image"
         }
       ]
     },
@@ -98,6 +334,36 @@
         {
           "id": "orocom-g3",
           "url": "/uploads/seed/orocom-3.png",
+          "type": "image"
+        },
+        {
+          "id": "orocom-affiche-publicitaire-26",
+          "url": "/uploads/orocom/affiche-publicitaire-26.jpg",
+          "type": "image"
+        },
+        {
+          "id": "orocom-affiche-can",
+          "url": "/uploads/orocom/affiche-can.jpg",
+          "type": "image"
+        },
+        {
+          "id": "orocom-affiche-noel",
+          "url": "/uploads/orocom/affiche-noel.jpg",
+          "type": "image"
+        },
+        {
+          "id": "orocom-visuel-24",
+          "url": "/uploads/orocom/visuel-24.jpg",
+          "type": "image"
+        },
+        {
+          "id": "orocom-visuel-8",
+          "url": "/uploads/orocom/visuel-8.jpg",
+          "type": "image"
+        },
+        {
+          "id": "orocom-visuel-aout-25",
+          "url": "/uploads/orocom/visuel-aout-25.jpg",
           "type": "image"
         }
       ]
@@ -123,11 +389,141 @@
           "id": "rayna-g3",
           "url": "/uploads/seed/rayna-3.jpeg",
           "type": "image"
+        },
+        {
+          "id": "rayna-hoodie",
+          "url": "/uploads/rayna/hoodie.jpg",
+          "type": "image"
+        },
+        {
+          "id": "rayna-visuel-raynat",
+          "url": "/uploads/rayna/visuel-raynat.jpg",
+          "type": "image"
         }
       ]
     }
   ],
   "media": [
+    {
+      "id": "media-ac-immobilier-apercu-25-visuels-engagement",
+      "url": "/uploads/ac-immobilier/apercu-25-visuels-engagement.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-apercu-9-thematiques",
+      "url": "/uploads/ac-immobilier/apercu-9-thematiques.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-affiche-terrain-sur",
+      "url": "/uploads/ac-immobilier/affiche-terrain-sur.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-affiche-bonheur-chez-soi",
+      "url": "/uploads/ac-immobilier/affiche-bonheur-chez-soi.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-engagement-reve-sans-terrain",
+      "url": "/uploads/ac-immobilier/engagement-reve-sans-terrain.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-commercial-future-maison",
+      "url": "/uploads/ac-immobilier/commercial-future-maison.jpg",
+      "type": "image",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-motion-future-maison",
+      "url": "/uploads/ac-immobilier/motion-future-maison.mp4",
+      "type": "video",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-ac-immobilier-motion-loyer-des-autres",
+      "url": "/uploads/ac-immobilier/motion-loyer-des-autres.mp4",
+      "type": "video",
+      "tag": "AC IMMOBILIER"
+    },
+    {
+      "id": "media-la-commerciale-affiche-annonce-live",
+      "url": "/uploads/la-commerciale/affiche-annonce-live.jpg",
+      "type": "image",
+      "tag": "LA COMMERCIALE"
+    },
+    {
+      "id": "media-la-commerciale-affiche-vente-flash",
+      "url": "/uploads/la-commerciale/affiche-vente-flash.jpg",
+      "type": "image",
+      "tag": "LA COMMERCIALE"
+    },
+    {
+      "id": "media-la-commerciale-linkedin-manifeste",
+      "url": "/uploads/la-commerciale/linkedin-manifeste.jpg",
+      "type": "image",
+      "tag": "LA COMMERCIALE"
+    },
+    {
+      "id": "media-mister-blazer-catalogue-trois-teintes",
+      "url": "/uploads/mister-blazer/catalogue-trois-teintes.jpg",
+      "type": "image",
+      "tag": "MISTER BLAZER"
+    },
+    {
+      "id": "media-mister-blazer-veste-bleu-marine",
+      "url": "/uploads/mister-blazer/veste-bleu-marine.jpg",
+      "type": "image",
+      "tag": "MISTER BLAZER"
+    },
+    {
+      "id": "media-mister-blazer-triptyque-ivoire",
+      "url": "/uploads/mister-blazer/triptyque-ivoire.jpg",
+      "type": "image",
+      "tag": "MISTER BLAZER"
+    },
+    {
+      "id": "media-alex-demonde-presentation-on-dit-quoi",
+      "url": "/uploads/alex-demonde/presentation-on-dit-quoi.jpg",
+      "type": "image",
+      "tag": "ALEX DEMONDE"
+    },
+    {
+      "id": "media-alex-demonde-humour-c-est-combien",
+      "url": "/uploads/alex-demonde/humour-c-est-combien.jpg",
+      "type": "image",
+      "tag": "ALEX DEMONDE"
+    },
+    {
+      "id": "media-alex-demonde-motion-c-est-combien",
+      "url": "/uploads/alex-demonde/motion-c-est-combien.mp4",
+      "type": "video",
+      "tag": "ALEX DEMONDE"
+    },
+    {
+      "id": "media-orocom-affiche-can",
+      "url": "/uploads/orocom/affiche-can.jpg",
+      "type": "image",
+      "tag": "OROCOM"
+    },
+    {
+      "id": "media-orocom-affiche-noel",
+      "url": "/uploads/orocom/affiche-noel.jpg",
+      "type": "image",
+      "tag": "OROCOM"
+    },
+    {
+      "id": "media-orocom-affiche-publicitaire-26",
+      "url": "/uploads/orocom/affiche-publicitaire-26.jpg",
+      "type": "image",
+      "tag": "OROCOM"
+    },
     {
       "id": "media-1",
       "url": "/uploads/seed/orocom-1.png",
@@ -177,6 +573,12 @@
       "tag": "CIERA"
     },
     {
+      "id": "media-rayna-hoodie",
+      "url": "/uploads/rayna/hoodie.jpg",
+      "type": "image",
+      "tag": "RAYNA"
+    },
+    {
       "id": "media-9",
       "url": "/uploads/seed/rayna-1.jpeg",
       "type": "image",
@@ -202,6 +604,39 @@
     }
   ],
   "experience": [
+    {
+      "id": "xp-ac",
+      "period": "Juin 2026 – aujourd'hui (temps plein)",
+      "role": "Chargé de Marketing et Communication",
+      "company": "AC IMMOBILIER",
+      "bullets": [
+        "Gestion des réseaux sociaux, conception des visuels et des vidéos en motion design selon la charte graphique",
+        "Pilotage des campagnes publicitaires Meta Ads orientées achat de maison",
+        "Programme marketing sur 3 mois et tableau de suivi des prospects avec indicateurs de performance",
+        "Actions commerciales et contribution à la stratégie de commercialisation"
+      ]
+    },
+    {
+      "id": "xp-indep",
+      "period": "2026 – aujourd'hui (à distance)",
+      "role": "Consultant Marketing Digital",
+      "company": "MISSIONS INDÉPENDANTES",
+      "bullets": [
+        "Vestimentum / Mister Blazer (mode), depuis juillet 2026 : réalisation du site web de vente en ligne, social media management, stratégie, calendrier éditorial, tableau de bord KPI, campagnes Meta Ads orientées ventes WhatsApp",
+        "La Commerciale (live selling) : benchmark, charte graphique, habillage des lives TikTok et Facebook, visuels et calendrier éditorial",
+        "Evannath Hôtel Assinie : calendrier éditorial Facebook, Instagram et TikTok, légendes et planning de tournages"
+      ]
+    },
+    {
+      "id": "xp-uvci",
+      "period": "Octobre 2026 – aujourd'hui",
+      "role": "Formateur en outils numériques et marketing digital",
+      "company": "UVCI ET COMMUNAUTÉ CVV NORD",
+      "bullets": [
+        "Programme de formation pratique pour les étudiants des spécialités de l'UVCI",
+        "Atelier en ligne d'initiation à l'informatique avec la Communauté Virtuelle de Yopougon Nord"
+      ]
+    },
     {
       "id": "xp-1",
       "period": "15 Janvier 2026 – 5 Mai 2026",
@@ -241,8 +676,8 @@
     "locationLine1": "Cocody, Angré CHU",
     "locationLine2": "Abidjan, Côte d'Ivoire",
     "phones": [
-      "+225 0544808513",
-      "+225 0769184860"
+      "+225 05 44 80 85 13",
+      "+225 07 69 18 48 60"
     ],
     "email": "alexdemonde7@gmail.com",
     "social": {
@@ -250,5 +685,37 @@
       "facebook": "https://facebook.com/alexdemonde",
       "tiktok": "https://tiktok.com/@alexdemonde"
     }
-  }
+  },
+  "tools": [
+    "Meta Business Suite",
+    "Adobe Illustrator",
+    "Canva",
+    "Excel",
+    "Google Workspace",
+    "IA générative"
+  ],
+  "education": [
+    {
+      "id": "edu-uvci",
+      "period": "2025 – 2026",
+      "title": "Licence 3 E-commerce et Marketing Digital, diplôme obtenu",
+      "school": "Université Virtuelle de Côte d'Ivoire"
+    },
+    {
+      "id": "edu-cert",
+      "period": "",
+      "title": "Certification Community Management",
+      "school": "Université Virtuelle de Côte d'Ivoire"
+    },
+    {
+      "id": "edu-bac",
+      "period": "2021 – 2022",
+      "title": "Baccalauréat A2",
+      "school": "Groupe Scolaire Sainte Adjoua Fadette"
+    }
+  ],
+  "languages": [
+    "Français (courant)",
+    "Anglais (intermédiaire)"
+  ]
 }
